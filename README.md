@@ -1,4 +1,4 @@
-# FaceitFinderAPI
+# Faceit Finder API v1
 
 **Initalization**
 ```C#
