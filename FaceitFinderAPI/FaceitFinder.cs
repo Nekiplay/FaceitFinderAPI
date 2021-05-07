@@ -21,8 +21,6 @@ namespace FaceitFinderAPI
                 HttpResponse response = request.Get("https://faceitfinder.com/profile/" + steam_id);
                 // Принимаем тело сообщения в виде строки.
                 string site = response.ToString();
-
-                Console.WriteLine(site);
                 Responce responce = new Responce();
                 try
                 {
